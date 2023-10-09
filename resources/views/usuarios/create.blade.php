@@ -4,7 +4,7 @@
 <div class="row">
     <div class="col-12">
         <div>
-            <h2>Crear usuario</h2>
+            <h2>REGISTRAR USUARIO</h2>
         </div>
         <div>
             <a href="{{route('usuario.index')}}" class="btn btn-primary">Volver</a>
@@ -29,31 +29,31 @@
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>Nombres:</strong>
-                    <input type="text" name="nombres" class="form-control" placeholder="Nombre del usuario" >
+                    <input type="text" name="nombres" class="form-control"  >
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>Apellidos: </strong>
-                    <input type="text" name="apellidos" class="form-control" placeholder="apellidos del usuario" >
+                    <input type="text" name="apellidos" class="form-control" >
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>correo electronico: </strong>
-                    <input type="text" name="email" class="form-control" placeholder="@gmail" >
+                    <input type="text" name="email" class="form-control" >
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>direccion: </strong>
-                    <input type="text" name="direccion" class="form-control" placeholder="ubicacion de residencia" >
+                    <input type="text" name="direccion" class="form-control" >
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>Telefono: </strong>
-                    <input type="number" name="telefono" class="form-control" placeholder="numero telefonico" >
+                    <input type="number" name="telefono" class="form-control" >
                 </div>
             </div>
             {{-- <div class="col-xs-12 col-sm-12 col-md-6 mt-2">

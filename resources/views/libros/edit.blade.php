@@ -30,25 +30,25 @@
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>titulo:</strong>
-                    <input type="text" name="titulo" class="form-control" placeholder="Nombre del usuario" value="{{$libro->titulo}}">
+                    <input type="text" name="titulo" class="form-control"  value="{{$libro->titulo}}">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>autor: </strong>
-                    <input type="text" name="autor" class="form-control" placeholder="apellidos del usuario" value="{{$libro->autor}}">
+                    <input type="text" name="autor" class="form-control"  value="{{$libro->autor}}">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>editorial: </strong>
-                    <input type="text" name="editorial" class="form-control" placeholder="@gmail" value="{{$libro->editorial}}">
+                    <input type="text" name="editorial" class="form-control"  value="{{$libro->editorial}}">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>genero: </strong>
-                    <input type="text" name="genero" class="form-control" placeholder="ubicacion de residencia" value="{{$libro->genero}}">
+                    <input type="text" name="genero" class="form-control"  value="{{$libro->genero}}">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 mt-2">
@@ -60,7 +60,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>stock: </strong>
-                    <input type="number" name="stock" class="form-control" placeholder="numero telefonico" value="{{$libro->stock}}">
+                    <input type="number" name="stock" class="form-control"  value="{{$libro->stock}}">
                 </div>
             </div>
             {{-- <div class="col-xs-12 col-sm-12 col-md-6 mt-2">

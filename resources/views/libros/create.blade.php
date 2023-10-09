@@ -4,7 +4,7 @@
 <div class="row">
     <div class="col-12">
         <div>
-            <h2>Crear usuario</h2>
+            <h2>REGISTRAR LIBRO</h2>
         </div>
         <div>
             <a href="{{route('libro.index')}}" class="btn btn-primary">Volver</a>
@@ -29,25 +29,25 @@
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>titulo:</strong>
-                    <input type="text" name="titulo" class="form-control" placeholder="Nombre del usuario" >
+                    <input type="text" name="titulo" class="form-control"  >
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>autor: </strong>
-                    <input type="text" name="autor" class="form-control" placeholder="apellidos del usuario" >
+                    <input type="text" name="autor" class="form-control"  >
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>editorial: </strong>
-                    <input type="text" name="editorial" class="form-control" placeholder="@gmail" >
+                    <input type="text" name="editorial" class="form-control"  >
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>genero: </strong>
-                    <input type="text" name="genero" class="form-control" placeholder="ubicacion de residencia" >
+                    <input type="text" name="genero" class="form-control" >
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 mt-2">
@@ -59,7 +59,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>stock: </strong>
-                    <input type="number" name="stock" class="form-control" placeholder="numero telefonico" >
+                    <input type="number" name="stock" class="form-control" >
                 </div>
             </div>
             {{-- <div class="col-xs-12 col-sm-12 col-md-6 mt-2">

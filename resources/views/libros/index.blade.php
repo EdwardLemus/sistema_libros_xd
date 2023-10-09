@@ -4,7 +4,7 @@
 <div class="row">
     <div class="col-12">
         <div>
-            <h2 class="text-white">crud de libros</h2>
+            <h2 class="text-white">REGISTRO DE LIBROS</h2>
         </div>
         <div>
             <a href="{{route('libro.create')}}" class="btn btn-primary">Crear tarea</a>

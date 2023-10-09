@@ -4,7 +4,7 @@
 <div class="row">
     <div class="col-12">
         <div>
-            <h2 class="text-white">CRUD de Tareas</h2>
+            <h2 class="text-white">REGISTRO DE USUARIOS</h2>
         </div>
         <div>
             <a href="{{route('usuario.create')}}" class="btn btn-primary">Crear tarea</a>
