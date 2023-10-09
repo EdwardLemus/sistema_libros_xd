@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsuarioController;
 use App\Http\Controllers\LibroController;
+use App\Http\Controllers\PrestamosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,5 @@ Route::get('/', function () {
 Route::resource('usuario', UsuarioController::class);
 
 Route::resource('libro', LibroController::class);
+
+Route::resource('prestamos', PrestamosController::class);

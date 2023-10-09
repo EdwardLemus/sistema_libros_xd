@@ -13,6 +13,8 @@ class PrestamosController extends Controller
     public function index()
     {
         //
+        $prestamos = Prestamos::latest()->paginate(8);
+        return view('prestamos.index', ['prestamos'=>$prestamos]);
     }
 
     /**
