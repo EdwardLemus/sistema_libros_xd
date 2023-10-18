@@ -1,6 +1,11 @@
 @extends('layouts.base')
 
 @section('content')
+<div class="container">
+    @include('menu') <!-- Incluir el menú -->
+    
+    <!-- Resto del contenido de la vista de usuarios.index -->
+</div>
 <div class="row">
     <div class="col-12">
         <div>
