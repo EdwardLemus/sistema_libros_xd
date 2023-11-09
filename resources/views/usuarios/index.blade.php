@@ -12,7 +12,7 @@
             <h2 class="text-white">REGISTRO DE USUARIOS</h2>
         </div>
         <div>
-            <a href="{{route('usuario.create')}}" class="btn btn-primary">Crear tarea</a>
+            <a href="{{route('usuario.create')}}" class="btn btn-primary">Crear usuario</a>
         </div>
     </div>
 

@@ -20,7 +20,7 @@
                 <label for="id_usuario" class="form-label">ID de Usuario</label>
                 <select class="form-select" id="id_usuario" name="id_usuario">
                     @foreach ($usuarios as $usuario)
-                        <option value="{{ $usuario->id }}">{{ $usuario->id }}</option>
+                        <option value="{{ $usuario->id }}">{{ $usuario->nombres}}</option>
                     @endforeach
                 </select>
             </div>
@@ -29,7 +29,7 @@
                 <label for="id_libro" class="form-label">ID del Libro</label>
                 <select class="form-select" id="id_libro" name="id_libro">
                     @foreach ($libros as $libro)
-                        <option value="{{ $libro->id }}">{{ $libro->id }}</option>
+                        <option value="{{ $libro->id}}">{{ $libro->titulo}}</option>
                     @endforeach
                 </select>
             </div>

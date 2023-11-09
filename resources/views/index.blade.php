@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Índice</title>
 </head>
+@extends('layouts.base')
+@section('content')
 <body>
     <h1>Índice</h1>
 
@@ -37,4 +39,5 @@
         </li> -->
     </ul>
 </body>
+@endsection
 </html>

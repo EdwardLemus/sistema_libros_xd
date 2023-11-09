@@ -25,8 +25,8 @@
     <div class="col-12 mt-4">
         <table class="table table-bordered text-white">
             <tr class="text-secondary">
-                <th>ID de Usuario</th>
-                <th>ID del Libro</th>
+                <th>Nombre del Usuario</th>
+                <th>Titulo del Libro</th>
                 <th>Fecha de Préstamo</th>
                 <th>Fecha de Devolución</th>
                 <th>Estado</th>
