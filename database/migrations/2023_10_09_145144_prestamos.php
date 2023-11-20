@@ -21,7 +21,7 @@ return new class extends Migration
             $table->enum('status',['pendiente','devuelto']);
             $table->timestamps();
         
-            $table->foreign('id_usuario')->references('nombres')->on('usuarios');
+            $table->foreign('id_usuario')->references('id')->on('usuarios');
             $table->foreign('id_libro')->references('id')->on('libros');
         });
     }
