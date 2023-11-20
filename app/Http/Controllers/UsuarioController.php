@@ -70,15 +70,15 @@ class UsuarioController extends Controller
     {
         //
         $request->validate([
-            'nombres'=> 'required',
-            'apellidos'=> 'required',
+            'nombres'=> 'required|regex:/^[\pL\s\-]+$/u',
+            'apellidos'=> 'required|regex:/^[\pL\s\-]+$/u',
             'email'=> 'required',
             'direccion'=> 'required',
-            'telefono'=> 'required'
+            'telefono'=> 'required|integer|not_in:0'
         ]);
         // dd($request);
         $usuario->update($request->all());
-        return redirect()->route('usuario.index') -> with ('success','nuevo usuario creado exitosamente');
+        return redirect()->route('usuario.index') -> with ('success',' usuario actualizado exitosamente');
 
 
     }
