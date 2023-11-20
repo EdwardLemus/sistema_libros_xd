@@ -17,11 +17,11 @@ return new class extends Migration
             $table->unsignedBigInteger('id_usuario');
             $table->unsignedBigInteger('id_libro');
             $table->dateTime('fecha_prestamo');
-            $table->dateTime('fecha_devolucion');
+            $table->dateTime('fecha_devolucion')->nullable;
             $table->enum('status',['pendiente','devuelto']);
             $table->timestamps();
         
-            $table->foreign('id_usuario')->references('id')->on('usuarios');
+            $table->foreign('id_usuario')->references('nombres')->on('usuarios');
             $table->foreign('id_libro')->references('id')->on('libros');
         });
     }

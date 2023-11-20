@@ -46,7 +46,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>correo electronico: </strong>
-                    <input type="text" name="email" class="form-control" >
+                    <input type="email" name="email" class="form-control" >
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
@@ -58,7 +58,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>Telefono: </strong>
-                    <input type="number" name="telefono" class="form-control" >
+                    <input type="text" name="telefono" class="form-control" >
                 </div>
             </div>
             {{-- <div class="col-xs-12 col-sm-12 col-md-6 mt-2">

@@ -17,7 +17,7 @@ class PrestamoController extends Controller
         $usuarios = Usuario::all();
         $libros = Libro::all();
         $prestamos = Prestamo::latest()->paginate(8);
-        return view('prestamos.index', compact('prestamos', 'usuarios', 'libros'));
+        return view('prestamos.index', compact( 'usuarios', 'libros' ,'prestamos'));
     }
 
     /**
@@ -39,7 +39,7 @@ class PrestamoController extends Controller
             'id_usuario' => 'required',
             'id_libro' => 'required',
             'fecha_prestamo' => 'required',
-            'fecha_devolucion' => 'required',
+            'fecha_devolucion'=> 'required',
             'status' => 'required',
         ]);
 

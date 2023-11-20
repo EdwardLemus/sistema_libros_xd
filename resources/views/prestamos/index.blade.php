@@ -34,8 +34,8 @@
             </tr>
             @foreach ($prestamos as $prestamo)
                 <tr>
-                    <td class="fw-bold">{{ $prestamo->id_usuario }}</td>
-                    <td>{{ $prestamo->id_libro }}</td>
+                    <td class="fw-bold">{{ $prestamo->id_usuario}}</td>
+                    <td>{{ $prestamo-> id_libro }}</td>
                     <td>{{ $prestamo->fecha_prestamo }}</td>
                     <td>{{ $prestamo->fecha_devolucion }}</td>
                     <td>{{ $prestamo->status }}</td>

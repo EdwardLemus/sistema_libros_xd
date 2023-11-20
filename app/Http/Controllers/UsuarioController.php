@@ -34,11 +34,11 @@ class UsuarioController extends Controller
     public function store(Request $request) : RedirectResponse
     {
         $request->validate([
-            'nombres'=> 'required',
-            'apellidos'=> 'required',
+            'nombres'=>'required|regex:/^[\pL\s\-]+$/u',
+            'apellidos'=>'required|regex:/^[\pL\s\-]+$/u',
             'email'=> 'required',
             'direccion'=> 'required',
-            'telefono'=> 'required'
+            'telefono'=> 'required|integer|not_in:0'
         ]);
         //dd($request->all());
         Usuario::create($request->all());

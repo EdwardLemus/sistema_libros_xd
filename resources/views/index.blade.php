@@ -20,7 +20,7 @@
             </ul> -->
         </li>
         <li>
-            <a href="#">Libros</a>
+            <a href="{{route('libro.index')}}">Libros</a>
             <!-- <ul>
                 <li><a href="#">Listar libros</a></li>
                 <li><a href="#">Crear libro</a></li>
@@ -29,7 +29,7 @@
             </ul> -->
         </li>
         <li>
-            <a href="#">Préstamos</a>
+            <a href="{{route('prestamos.index')}}">Préstamos</a>
             <!-- <ul>
                 <li><a href="#">Listar préstamos</a></li>
                 <li><a href="#">Crear préstamo</a></li>
